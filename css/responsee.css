@@ -514,3 +514,77 @@ nav {
 .card-icon {
   width: 64px;
 }
+
+.blurp {
+  font-size: 1.3em;
+  color: #666;
+  margin: 3rem auto;
+}
+
+.acc {
+  font-weight: 700;
+  color: #1976D2;
+  text-transform: uppercase;
+}
+
+.listing {
+  list-style: none;
+
+}
+
+.listing li {
+  font-weight: 600;
+  color: #1976D2;
+  margin-top: .5em;
+}
+
+.inner-box {
+  vertical-align: middle;
+  padding-top: 10%
+}
+
+.lead {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.animate:hover {
+  transition: all .4s ease-in-out;
+  transform: scale(1.2);
+}
+
+figure {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+
+figure img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 120%;
+  height: 120%;
+  z-index: -1;
+  
+}
+
+figure figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1976D2;
+  color: #FAFAFA;
+  padding: .5em;
+}
+
+figure:hover > img {
+  transform: scale(1.2);
+}
